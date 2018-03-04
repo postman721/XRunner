@@ -1,7 +1,7 @@
 # XRunner
 XRunner is a program launcher written with Java, which means it is very portable between different distributions.
 
-XRunner v.1 Copyright (c) 2017 JJ Posti <techtimejourney.net> This program comes with ABSOLUTELY NO WARRANTY; for details see: http://www.gnu.org/copyleft/gpl.html. This is free software, and you are welcome to redistribute it under  GPL Version 2, June 1991")
+XRunner v.2 Copyright (c) 2017 JJ Posti <techtimejourney.net> This program comes with ABSOLUTELY NO WARRANTY; for details see: http://www.gnu.org/copyleft/gpl.html. This is free software, and you are welcome to redistribute it under  GPL Version 2, June 1991")
 ________
 
 ![xrunner1](https://user-images.githubusercontent.com/29865797/30669036-7c226f00-9e65-11e7-9af9-7a1669a0b9ac.jpg)
