@@ -1,5 +1,5 @@
 /*
-XRunner v.1 Copyright (c) 2017 JJ Posti <techtimejourney.net> This program comes with ABSOLUTELY NO WARRANTY; 
+XRunner v.2 Copyright (c) 2017 JJ Posti <techtimejourney.net> This program comes with ABSOLUTELY NO WARRANTY; 
 for details see: http://www.gnu.org/copyleft/gpl.html. This is free software, and you are welcome to redistribute it under 
 GPL Version 2, June 1991")
  */
@@ -11,6 +11,7 @@ public class guiForm extends javax.swing.JFrame {
      */
     public guiForm() {
         initComponents();
+        this.setLocationRelativeTo(null);
         getContentPane().setBackground(java.awt.Color.darkGray);    
 
     }
@@ -25,12 +26,12 @@ public class guiForm extends javax.swing.JFrame {
 
         jTextField1 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("XRunner");
+        setAlwaysOnTop(true);
         setBounds(new java.awt.Rectangle(0, 0, 300, 300));
-        setMinimumSize(new java.awt.Dimension(430, 150));
+        setMinimumSize(new java.awt.Dimension(430, 100));
         setResizable(false);
         getContentPane().setLayout(null);
 
@@ -46,21 +47,13 @@ public class guiForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField1);
-        jTextField1.setBounds(20, 30, 370, 40);
+        jTextField1.setBounds(20, 10, 370, 40);
 
         jLabel1.setBackground(new java.awt.Color(102, 102, 102));
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(100, 80, 230, 40);
-
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/xrunner/back.jpg"))); // NOI18N
-        jLabel2.setText("jLabel2");
-        jLabel2.setMaximumSize(new java.awt.Dimension(200, 300));
-        jLabel2.setMinimumSize(new java.awt.Dimension(200, 300));
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(0, 0, 440, 130);
+        jLabel1.setBounds(130, 50, 150, 20);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -95,7 +88,6 @@ public class guiForm extends javax.swing.JFrame {
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
